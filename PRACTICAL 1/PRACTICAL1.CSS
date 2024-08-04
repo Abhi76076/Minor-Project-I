@@ -1,0 +1,525 @@
+/* this is for all element in this website  */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* this is for body tag  */
+body {
+    background-color: black;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Verdana', Tahoma, sans-serif;
+
+}
+#MM{
+    background-color:rgb(244, 255, 255);
+}
+
+/* this is for head class in header tag  */
+.head {
+    text-align: center;
+    text-decoration: double;
+    /* color: #2bab0b; */
+    color: rgb(51, 152, 219);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* this is for head1 id in head class in header tag  / RAMANUJAN COLLEGE */
+#head1 {
+    /* margin: 10px; */
+}
+
+/* this is for head1 id in head class in header tag  / University of Delhi */
+#head2 {
+    /* margin: 10px; */
+}
+
+/* this is for head1 id in head class in header tag  / NAAC Grade of Ramanujan College */
+#head3 {
+    color: rgb(57, 5, 134);
+}
+
+/* this is for img class of divlogo class */
+.img {
+    height: 150px;
+    width: 150px;
+    display: inline;
+}
+
+/* this is for img1 id in img class of div logo class */
+#img1 {
+    margin-left: 31%;
+}
+
+/* this is for img2 id in img class of div logo class */
+#img2 {
+    margin-left: 25px;
+    width: 250px;
+}
+
+/* this is for img3 id in img class of div logo class */
+#img3 {
+    margin-left: 25px;
+}
+
+nav {
+    width: 100%;
+}
+
+/* Following tags are for nav class */
+/* this is for menu-bar class of nav tag or main nav class */
+.menu-bar {
+    /* background-color: rgb(0, 120, 0); */
+    background-color: rgb(51, 152, 219);
+    text-align: center;
+    width: 100%;
+
+}
+
+/* this is for menu-bar ul tag of nav tag or main ul nav class
+example of list are as follows home , admission, student's portal
+student life , login , contact us etc... */
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+/* this is for menu-bar ul li tag of nav tag or main ul li nav class
+example of list are as follows home , admission, student's portal
+student life , login , contact us etc...  these are separately*/
+
+.menu-bar ul li {
+    /* width: 120px; */
+    margin: 15px;
+    padding: 15PX 10px;
+
+}
+
+/* this is for menu-bar ul li a(anchor, for link) tag of nav tag or main ul li a nav class
+example of list anchor tags are as follows home , admission, student's portal
+student life , login , contact us etc... this is for separate word  */
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* decorate when mouse on menu bar class */
+.menu-bar:hover {
+    /* background-color: rgb(0, 130, 0); */
+    background-color: rgb(51, 152, 210);
+}
+
+/* decorate when mouse on ul tag of menu bar class */
+.menu-bar ul :hover {
+    /* background-color: rgb(0, 220, 0); */
+    background-color: rgb(51, 152, 230);
+    border-radius: 5px;
+
+}
+
+/* this is for nav logos */
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+/* this is for .sub-menu-1 class of admission , student's portal , 
+student Life and many down list container this is for display 
+none 
+ */
+.sub-menu-1 {
+    display: none;
+}
+
+/* when mouse over the menu-bar ul li (this is for menu-bar ul li tag of nav tag or main ul li nav class
+example of list are as follows home , admission, student's portal
+student life , login , contact us etc...  these are separately)
+ then display and many more effect on sub-menu-1 class  */
+/* sub menu one effects */
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    /* background-color: rgb(10, 180, 0); */
+    background-color: rgb(51, 152, 230);
+    margin-top: 5px;
+    margin-left: -15px;
+    border-radius: 5px;
+}
+
+/* when mouse over the menu-bar ul li (this is for menu-bar ul li tag of nav tag or main ul li nav class
+example of list are as follows home , admission, student's portal
+student life , login , contact us etc...  these are separately)
+ then display and many more effect on sub-menu-1 ul li tag like 
+  Resister Now ,  Examination Portal, Placement Cell , Life At RC ,Life In Hostel ,
+Alumni Network , UG Students Login,
+PG Students Login*/
+/* show effect for sub-menu-1 ul li  when hover on the menu-bar ul li */
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    display: block;
+    margin: 10px;
+    /* background-color: rgb(10, 180, 0); */
+}
+
+/* show effect for sub-menu-1 ul  when hover on the menu-bar ul li */
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    border-radius: 5px;
+    margin: 10px;
+    /* background-color: rgb(10, 180, 0); */
+    background-color: rgb(51,152,230);
+}
+
+/* .menu-bar ul li:hover .sub-menu-1 ul a{
+
+} */
+
+/* show effect for sub-menu-1 ul li  when hover on the menu-bar ul li 
+this is only for border of li*/
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    /* background-color: rgb(3, 10, 16); */
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:hover{
+    background-color: rgb(51, 140, 210);
+}
+
+/* last child border bottom none */
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+/* anchor tag color and more */
+.menu-bar ul li:hover .sub-menu-1 ul li a {
+    /* font-style: italic; */
+    color: beige;
+}
+
+/* when hover on anchor tag then anchor tag color and more  */
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: rgb(50, 50, 240);
+    font-weight: bold;
+    background-color: rgb(51, 140, 210);
+    /* font-style: italic; */
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:active{
+    color: rgb(50, 50, 240);
+}
+
+/* this is for sub-menu-2 class which is  */
+.sub-menu-2 {
+    display: none;
+    border-radius: 5px;
+    /* background-color: rgb(10, 180, 0); */
+    background-color: rgb(51, 152, 219);
+
+}
+
+/* this is for hover_me class which is Resister Now 
+and  Examination Portal styling  */
+.hover_me {
+    border-radius: 5px;
+
+}
+
+/* when hover on hover_me class means
+ when mouse on hover-me class then 
+ sub-menu-2 effect or styling */
+.hover_me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 140px;
+    /* background-color: rgb(0, 100, 0); */
+    background-color: rgb(51, 152, 219);
+}
+
+/* nav tag has been
+CLOSED
+.
+ all styling of nav tag are above */
+
+
+/* this is for slide bar styling codes */
+
+
+
+
+
+
+
+
+
+/* this is for  HOME  page styling code  */
+
+
+
+
+
+/* this is for prac2 page css styling */
+#pmm h4 {
+    background-color: rgb(20, 10, 168);
+    /* margin: 0% 5% 3% 30% ; */
+    background-origin: padding-box;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid grey;
+
+}
+
+#pmm {
+    text-align: center;
+    background-color: rgb(187, 202, 187);
+}
+
+
+
+
+/* This is for Home News and events */
+
+
+.container {
+    margin: 10%;
+    padding: 10%;
+    font-family: 'Gill Sans';
+}
+
+.news {
+    text-align: center;
+    /* background-color: rgb(44, 190, 58); */
+    background-color: rgb(51, 152, 219);
+    color: rgb(66, 14, 14);
+    border: 2px solid skyblue;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius:5px 5px 10px 10px ;
+
+}
+#para2{
+     /* text-align: center; */
+    /* background-color: rgb(44, 190, 58); */
+    /* background-color: rgb(51, 152, 219); */
+    /* color: rgb(66, 14, 14);
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 0px 0px 5px 5px;*/
+    width: 49%; 
+    text-align: center;
+    display:inline-block;
+    /* position: absolute; */
+    border-right: 2px solid skyblue;
+    background-color: rgb(50, 151, 218);
+}
+#para3{ 
+    /* background-color: rgb(44, 190, 58); */
+    /* background-color: rgb(51, 152, 219); */
+    
+    /* padding: 10px; */
+    display:inline-block;
+    text-align: center;
+    width: 49%;
+   margin-left: 15px;
+    border-left: 2px solid skyblue;
+    background-color: rgb(50, 151, 218);
+    /* position: absolute; */
+    /* float:left; */
+}
+.EN{
+    margin-top: 0%;
+    margin-left: 6px;
+
+    /* text-align: center; */
+    
+    font-size: 25px;
+    color: rgb(66, 14, 14);
+    font-weight: bolder;
+    border: 2px solid skyblue;
+    background-color: rgb(50, 151, 218);
+    border-radius: 0px 0px 8px 8px;
+    width: 99%;
+    /* position: absolute; */
+}
+
+.con1 {
+    /* position: relative; */
+    display: inline-block;
+    border: 8px solid rgb(40, 80, 193);
+    width: 48%;
+    margin-top: 0px;
+    /* margin-left: auto; */
+    margin-right: auto;
+    height: 500px;
+    background-color: rgb(40, 80, 193);
+    overflow-y: scroll;
+    border-radius: 0px 0px 8px 8px;
+    margin-left: 15px;
+}
+
+.con1 p {
+    padding: 20px 15px;
+    border: 1px solid rgb(52, 150, 210);
+    border-radius: 10px;
+    background-color: rgb(92, 141, 190);
+    text-align: center;
+    text-overflow: clip;
+    margin: 10px 5px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+
+.con1 p a {
+    text-decoration: none;
+    color: rgb(30, 13, 4);
+}
+
+
+
+             /* This is For Gallery */
+
+.pic{
+    border: 4px solid rgb(51, 152, 210);
+    width: 60%;
+    margin-top: 0%;
+    height: 750px;
+    overflow-y: scroll;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    /* position: absolute; */
+}
+             
+
+img{
+
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    padding: 5px 2px 3px 8px;
+}
+.pic p{
+    background-color:rgb(255,255,250);
+    font-size:large;
+    font-weight: bolder;
+    width: 200px;
+    height: 5%;
+    position:relative ;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+
+}
+.pic p a{
+    text-decoration: none;
+    color: rgb(34, 3, 3);
+}
+
+.pic p a:hover{
+    color: rgb(27, 64, 255);
+}
+
+
+
+
+
+
+
+
+
+/* Begin With footer  */
+
+
+
+#cnu {
+    height: 450px;
+    /* background-color: rgb(50, 255, 50); */
+    background-color: rgb(51, 152, 219);
+    /* box-align: center; */
+    margin-top: 100%;
+    margin-bottom: 0%;
+    /* border: 25px solid rgb(50, 253, 50); */
+    border: 25px solid rgb(51, 152, 215);
+    /* background-color: rgb(51, 152, 215); */
+    /* border-bottom: 20px solid rgb(50, 250, 50); */
+    border-bottom: 20px solid rgb(51, 152, 210);
+    /* background-color: rgb(51, 152, 210); */
+    border-radius: 15px 15px 0px 0px;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+}
+
+.foot {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    text-decoration: none;
+}
+
+footer.foot span a {
+    text-decoration: none;
+
+}
+
+footer.foot span .fa {
+    size: 25px;
+}
+
+
+footer .fa {
+    font-size: 30px;
+    color: rgb(12, 25, 110);
+    margin-left: 30px;
+}
+
+footer span {
+    margin-left: 8px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.f1 {}
+
+#Pa {
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+.f1 span a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(105, 98, 88);
+}
+
+.map a,
+#cc a,
+.f1 a {
+    text-decoration: none;
+    color: rgb(89, 87, 84);
+}
+
+.f1 p {
+
+    color: rgb(51, 21, 21);
+}
+
+.f1 p a {
+    color: rgb(175, 115, 11);
+}
